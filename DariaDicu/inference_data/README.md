@@ -1,8 +1,8 @@
-# Data files
+# Processed data files
 
 ## joint_fluorescence_reads.dat
 
-Definition: Fluorescence read data for n cycles
+Definition: Fluorescence read data for n cycles. Processed to remove exponential phase
 
 Data file format:
 E - number of experiments considered for inference.

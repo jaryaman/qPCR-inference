@@ -22,8 +22,12 @@ gcc -Wall -c -I/usr/local/include inference.c | gcc -L /usr/local/lib -lgsl -lbl
 python plot_scripts/plot_qpcr_results.py
 ```
 
-JA: I the following gcc command works on Ubuntu 14.04:
+JA: The following gcc command works on Ubuntu 14.04:
 ```bash
 $ gcc -std=gnu99 inference.c `pkg-config --cflags --libs gsl` -o inference.ce
 $ ./inference.ce 1
 ```
+
+## Important directories
+`experimental_data` : Raw data from qPCR
+`inference_data` : Processed data from `experimental_data` ready for performing inference (exponential phase extraction)
