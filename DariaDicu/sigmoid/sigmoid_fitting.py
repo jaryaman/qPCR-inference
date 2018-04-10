@@ -107,7 +107,7 @@ for entry in standards:
 
 	print("\n\nX0 for this standard is ", X0)
 	print("\n", line, "\n")
-	print(*popt)
+	print(popt)
 
 	Fmax = popt[0]
 	Chalf = popt[1]
