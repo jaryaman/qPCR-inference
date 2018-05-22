@@ -1,0 +1,16 @@
+ BJ-2-3-2017-sortedsinglecellHBplate6-16SA.xlsx, first sheet (BJ-2-3-2017-sortedsinglecellHBp)
+
+    1. What mutation were you investigating here? The filename suggests you were looking at the HB mutation, is that right? Yes.
+    2. The column well converts a 384 well plate coordinate (e.g. K7) to an integer (e.g. 247) Yes 
+    3. For the COII primer, the wells containing single cells go from 13--309. Yes
+    4. The COII primer measures total mtDNA. Yes
+    5. The only standards from this date we should use are 247-249,271-273,...,367-369, since we know the initial amount of DNA (10^6) in a dilution series of x10. For the rest, we don't know the absolute copy numbers. Yes (But it seems to be 10^7)
+    6. It looks like you used a primer against CYB in the top half of the spreadsheet. But I thought that the HB mutation was on the 16S rRNA. So what is specific to the mtDNA mutation here? It´s a HB mutation in the CYB gene.
+    7. You only have a dilution series with known amounts of DNA for the COII primer. We do not have this information for the CYB primer. Yes.
+
+
+BJ-10-3-2017-STsortedcells-MUPSTDdiff.xlsx and BJ-16-12-2016-sortedcellsAndtestMUP.xlsx, first sheets
+
+    1. These two experiments were both for the nuclear housekeeping gene MUP, which is held in multiple copy number. Yes
+    2. The DNA standards are indicated by "MUP STD Qiagen" as the sample name. Yes It´s PCR product
+    3. These experiments were performed because we know, in theory, that each cell should have 40 copies (assuming it has not yet replicated its nuclear DNA for mitosis). Yes. Unfortunately the 40 copies might not be exact 40 copies, but this is the amount of matches in the mouse genome...
